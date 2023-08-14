@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.6.12)  12 JUN 2023 18:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.6.12)  15 JUN 2023 20:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -249,11 +249,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./uam.png>] [2] [3] [4] [5] [6] [7] [8] [9]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 140.
+(Font)              <12> on input line 144.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 140.
+(Font)              <8> on input line 144.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 140.
+(Font)              <6> on input line 144.
 
 Missing character: There is no Ã in font cmtt12!
 Missing character: There is no ¡ in font cmtt12!
@@ -266,29 +266,29 @@ Package rerunfilecheck Info: File `preuba.out' has not changed.
  )
 (\end occurred inside a group at level 9)
 
-### semi simple group (level 9) entered at line 124 (\begingroup)
-### semi simple group (level 8) entered at line 107 (\begingroup)
-### semi simple group (level 7) entered at line 89 (\begingroup)
-### semi simple group (level 6) entered at line 82 (\begingroup)
-### semi simple group (level 5) entered at line 72 (\begingroup)
-### semi simple group (level 4) entered at line 61 (\begingroup)
-### semi simple group (level 3) entered at line 38 (\begingroup)
+### semi simple group (level 9) entered at line 128 (\begingroup)
+### semi simple group (level 8) entered at line 113 (\begingroup)
+### semi simple group (level 7) entered at line 94 (\begingroup)
+### semi simple group (level 6) entered at line 87 (\begingroup)
+### semi simple group (level 5) entered at line 77 (\begingroup)
+### semi simple group (level 4) entered at line 66 (\begingroup)
+### semi simple group (level 3) entered at line 42 (\begingroup)
 ### semi simple group (level 2) entered at line 30 (\begingroup)
 ### semi simple group (level 1) entered at line 20 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9885 strings out of 476025
- 156055 string characters out of 5796532
- 1859388 words of memory out of 5000000
+ 9886 strings out of 476025
+ 156066 string characters out of 5796532
+ 1861388 words of memory out of 5000000
  30192 multiletter control sequences out of 15000+600000
  520837 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,76p,285b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on build/preuba.pdf (10 pages, 163536 bytes).
+Output written on build/preuba.pdf (10 pages, 165524 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 33 named destinations out of 1000 (max. 500000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 34 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

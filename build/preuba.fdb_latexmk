@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1686616520 "/home/damian/Documentos/pruebas/preuba.tex" "build/preuba.pdf" "preuba" 1686616520 0
-  "/home/damian/Documentos/pruebas/preuba.tex" 1686616508 13005 dec430856663037c0537d8ca6f3eb411 ""
+["pdflatex"] 1686882702 "/home/damian/Documentos/pruebas/preuba.tex" "build/preuba.pdf" "preuba" 1686882703 0
+  "/home/damian/Documentos/pruebas/preuba.tex" 1686882702 13582 218464e7153bc6942c84e2dc3bc88953 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1686171558 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1686171558 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm" 1686171558 2520 53e01eef820ca829e42c1333c3fd02b9 ""
@@ -76,9 +76,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1686171558 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1686600224 4487133 5a7ebe95c237302fd823dc203f66da1a ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1686600214 8204101 cca2249ac4826b76e1f878c93caeeb0c ""
-  "build/preuba.aux" 1686616520 717 76e371bcb88a71b10aa196c65001f235 "pdflatex"
-  "build/preuba.out" 1686616520 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "preuba.tex" 1686616508 13005 dec430856663037c0537d8ca6f3eb411 ""
+  "build/preuba.aux" 1686882703 717 76e371bcb88a71b10aa196c65001f235 "pdflatex"
+  "build/preuba.out" 1686882702 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "preuba.tex" 1686882702 13582 218464e7153bc6942c84e2dc3bc88953 ""
   "uam.png" 1686616508 153215 85e120fad0f4f334d8cc422fcc7ba156 ""
   (generated)
   "build/preuba.aux"

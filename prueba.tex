@@ -3,17 +3,44 @@
 \usepackage{csquotes}
 \usepackage[spanish]{babel}
 \usepackage{biblatex}
+\usepackage[usenames]{color}
+\definecolor{blue}{RGB}{14,139,125}
 \begin{document}
-utyiuyyityttittyt
-\section{Animales}
-\subsection{Vertebrados}
-\subsubsection{Mamíferos}
-\subsubsection{Anfibios}
-\subsubsection{Reptiles}
-\subsubsection{}
-\subsection{Invertebrados}
-\subsubsection{Gusanos}
-\subsubsection{Moluscos}
-\subsubsection{Medusas}
-\subsubsection{}
+\section*{Estática de fluidos pre-lectura 1}
+\paragraph*{}
+La materia se suele dividir en sólidos y fluidos \textcolor{blue}{(donde se incluyen a los gases y los líquidos)},
+estos últimos definiéndose como un conjunto de moléculas débilmente unidas las cuales están dispersas, teniendo una propiedad peculiar la cual es que a diferencia
+de un solido en el cual se puede aplicar una fuerza en cualquier angulo respecto a su superficie soportando fuerzas de corte y tension, y al fluido no soportar estas fuerzas 
+al aplicarle cualquier fuerza esta siempre se propagara perpendicularmente a la superficie de contacto, a esta fuerza
+se le llama presión y se define como la fuerza aplicada entre el area de contacto: $P =\frac{F}{A}$, siendo P un valor
+escalar ya que según establece el principio de pascal cualquier presión ejercida por un liquido se esparce uniformemente por este no teniendo una dirección privilegiada.\\
+algo curioso de la presión es que no importa la forma del recipiente o la cantidad de liquido esta no aumenta conforme a ello,
+sino que aumenta según la altura o profundidad que estés sumergido en el liquido
+para demostrarlo  un ejemplo muy bueno es:
+si tenemos un cilindro de area transversal $A$ que es el area en contacto con el liquido y altura $h$ y lo llenamos de un liquido de densidad $\rho$ contante
+y después lo sumergimos una distancia $d$ en el mismo liquido al hacer el análisis de fuerzas sobre el objeto queda que
+$\Sigma \vec{F}=PA-{P}_{0}A-Mg=0$, siendo $PA$ la presión ejercida en la parte inferior del cilindro, ${P}_{0}A$ la presión ejercida encima y Mg el peso del cilindro
+con esto sabido podemos definir a la masa como la densidad del por el volumen $M=\rho V$
+y siendo V el volumen del cilindro que seria el area transversal por la altura, $V=Ah$
+quedando que $M=\rho Ah$ sustituyendo queda $PA-{P}_{0}A-\rho hA$ al final al despejar y simplificar queda
+$P={P}_{0}+\rho hg$ siendo ${P}_{0}$ $g$ y $\rho$ constantes y $h$ la única variable
+siendo $\rho$ la densidad que depende del liquido a tratar, $g$ la aceleración de la gravedad en la tierra y
+${P}_{0}$ la presión inicial que en el caso de la tierra se refiere siempre a la presión atmosférica, la cual se origina
+gracias que que la atmósfera también es un fluido por lo cual ejerce presión sobre nosotros y sobre cualquier cosa debajo de ella siendo asi entonces la presión
+que se mide al restar la presión atmosférica aquella que seria la que ejercería el liquido se conoce como presión manométrica.
+en el ejemplo anterior para demostrar que la presión depende de la altura tal como esta definido se asume
+que este queda suspendido, ya que la fuerza que cancela la gravedad es la presión ejercida de abajo hacia arriba, por tercera ley de newton y la definición de presión
+se puede suponer que esto se debe a que el peso ejerce una fuerza sobre el liquido y este responde con una fuerza igual incluso mayor ya que también tiene que cancelar la fuerza de la presión inicial
+entonces de donde viene esa fuerza extra,
+una pista de lo que puede estar pasando es  algo que no menciona el problema
+es que en la vida real ademas de ver al cilindro quedar suspendido también veremos que al momento de sumergirlo parecerá que el nivel del agua aumenta
+y esto se debe a que el cilindro desplaza una cantidad de agua que ejerce una fuerza extra de empuje, esa fuerza extra es la ayudaba a mantener el objeto suspendido y se trata de la fuerza de flotación
+el mecanismo por el cual funciona esta fuerza fue descubierto por el matemático, físico e ingeniero griego Arquímedes de Siracusa siendo este mecanismo llamado en su honor
+el principio de arquimedes el cual va de la siguiente manera ´´todo objeto sumergido en un fluido sufre un empuje igual al del peso del fluido que desplaza'';
+esta fuerza depende de la densidad del objeto sumergido pasando lo siguiente\\
+\begin{enumerate}
+    \item si la densidad del objeto es menor a la del liquido flotara
+    \item si la densidad es igual este quedara suspendido en el liquido
+    \item si la densidad es menor este se hundirá 
+\end{enumerate}
 \end{document} 
