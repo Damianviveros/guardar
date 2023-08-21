@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[usenames]{color}
+\begin{document}
+\section*{Movimiento de los fluidos }
+\paragraph*{}
+cuando un fluido se mueve se dice que este tiene un flujo, este flujo se puede clasificar es dos tipos, el laminar el cual es en el que todas las 
+partículas del fluido se mueven a la misma velocidad y no chocan entre si generando este flujo, en cambio cuando estas llegan cierta velocidad conocida 
+como velocidad critica este se convierte en un flujo turbulento el cual se caracteriza por los pequeños torbellinos que se generan en el,
+ejemplo cuando apagas una vela y ves el humo que sale de ella el humo tiende a generar pequeños vortices debido a que el aire que nos rodea genera 
+siempre flujos turbulentos, otra característica que tienen los fluidos relacionada con su movimiento en lo que se conoce como viscosidad, esta se trata de 
+la resistencia del fluido a moverse o fluir siendo algo asi como la fricción de un fluido respecto a si mismo ya que esta característica
+es propia del fluido y no de su entorno y por ultimo el movimiento que sigue una partícula en el fluido se llama corriente y la velocidad de esta partícula siempre es
+tangencial a la corriente, para facilitarnos el estudio de los mismos tendremos ciertas concesiones como:\\
+\begin{enumerate}
+    \item el fluido es incompresible
+    \item el fluido no tiene viscosidad
+    \item el fluido es no rotatorio
+    \item el flujo es estacionario
+\end{enumerate}
+teniendo esto en cuenta también hay otra característica que pasa cuando un fluido se mueve es que estos conservan su masa en todo momento;
+Se deriva este resultado a partir de lo siguiente, en un tubo no uniforme tomamos un punto $\Delta {x}_{1}$ al hacer pasar un fluido por ese punto en un tiempo $\Delta t$
+este recorre un  área ${A}_1$ inicial,al tomar en el mismo tubo en otra posición $\Delta {x}_{2}$ recorre un área A2 en el mismo intervalo de tiempo $\Delta t$
+la masa esta dada por ${m}_{1}=\rho V$ y siendo volumen $V=\Delta {x}_{1} {A}_{1}$ tenemos que ${m}_{1}=\rho \Delta {x}_{1} {A}_{1}$ y ${m}_{2}=\rho \Delta {x}_{2} {A}_{2}$
+y sabiendo que $\Delta {x}_{1} =  {v}_{1}\Delta t$y$\Delta {x}_{2} =  {v}_{2}\Delta t$
+y al ser $\rho$ constante por ser incompresible el fluido y el intervalo $\Delta t$ por el que se mueven es igual y no hay entrada ni salida
+de fluido entre ${x}_{1}$ y ${x}_{2}$ queda que ${m}_{1}={m}_{2}$
+Usando esta relación obtenemos que
+$\rho {A}_{1}{v}_{1}=\rho{A}_{2}{v}_{2}$ simplificando la densidad
+obtenemos ${A}_{1}{v}_{1}={A}_{2}{v}_{2}$
+siendo está la fórmula o ecuación de continuidad.\\
+Ahora algo curioso que pasa si los fluidos se mueven es que al parecer su presión tiende a variar
+un ejemplo es cuando soplas encima de una hoja y esta sube en vez de bajar,
+este fenomeno se puede describir suponiendo que tienes un tubo no uniforme y en el
+ejerces fuerza en los dos extremos del tubo desplazando fluido y por ende generando trabajo
+como el fluido es incompresible entonces supones que los trabajos son iguales ${W}_{1}={W}_{2}$
+ahora definimos el trabajo 1 como ${W}_{1}={F}_{1}{x}_{1}$ y el trabajo 2
+${W}_{2}={F}_{2}{x}_{2}$ y con el resultado anterior sabemos que el volumen de ambos tramos
+de fluido siempre es el mismo que del resto del fluido por que la masa siempre es las misma y la densidad igual
+entonces para saber la fuerza que ejercen ambos tramos fluidos recurrimos a $P=\frac{F}{A}$
+por lo cual ${W}_{1}={P}_{1}{A}_{1}{x}_{1}$ y ${W}_{2}=-{P}_{2}{A}_{}{x}_{2}$ siendo ${W}_{2}$ negativa porque 
+es ejercida contrariamente a ${W}_{1}$ entonces definimos al trabajo total como
+${W}_{t}={W}_{1}-{W}_{2}$
+simplificando ${W}_{t}=({P}_{1}-{P}_{2})V$
+y al usar teorema trabajo energía sumando la energía potencial de cada segmento dada
+por su masa y la altura obtenemos
+$({P}_{1}-{P}_{2})V=\frac{1}{2}m{v}_{1}^{2}-\frac{1}{2}{v}_{2}^{2}+mg{y}_{1}-mg{y}_{2}$ y al dividir todo entre volumen y simplificando queda
+${P}_{1}+\rho {v}_{1}^{2}+\rho g{y}_{1}={P}_{2}+\rho {v}_{2}^{2}+\rho g{y}_{2}$
+siendo esta la conocida ecuación de Bernoulli que nos dice que la presión de un fluido
+varia de acuerdo a que tan rápido se mueve, a pesar de ser esta deducida a partir de un fluido
+incompresible se a demostrado que funciona incluso con los gases, una nota interesante
+es que como esta ley se obtiene a partir del teorema trabajo energía y sabemos que
+el resultado de esta siempre es contante esto quiere decir que la energía en el fluido siempre
+se conserva.
+por ultimo en el principio hable de la viscosidad pero hay algo que la viscosidad 
+determina de un flujo y es si este es turbulento, laminar o caótico a partir de un 
+numero conocido como numero de Reynolds el cual determina que tipo de flujo sera
+y para calcularlo se usa $Re=\frac{\sqrt{fuerzas cineticas}}{\sqrt{fuerzas viscosas}}$
+y esto es importante ya que normalmente para medir la viscosidad de un fluido se usa 
+la llamada ley de stokes que es un caso particular de las ecuaciones de navier-stokes
+donde se calcula la fuerza de fricción que experimenta una bola sometida a un flujo laminar con un numero de Reynolds
+bajo
+
+\end{document}s
