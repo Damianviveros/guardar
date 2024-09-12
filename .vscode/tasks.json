@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"version": "2.0.0",
 	"tasks": [
 		{
@@ -42,4 +43,32 @@
 			"detail": "compilador: /usr/bin/g++"
 		}
 	]
+=======
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe compilar archivo activo",
+            "command": "d:\\Clementine\\msys\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "d:\\Clementine\\msys\\mingw64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarea generada por el depurador."
+        }
+    ],
+    "version": "2.0.0"
+>>>>>>> c90da1d38e30174c1b9896744b646f08201d22e7
 }
