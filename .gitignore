@@ -1,0 +1,43 @@
+# Archivos auxiliares de LaTeX
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lot
+*.lof
+*.nav
+*.snm
+*.vrb
+
+# Archivos intermedios generados por beamer
+*.nav
+*.snm
+*.vrb
+
+# Archivos de índice
+*.idx
+*.ilg
+*.ind
+
+# Archivos de glossarios
+*.glg
+*.glo
+*.gls
+*.ist
+
+# Archivos de TikZ y PGF
+*.dpth
+*.md5
+*.auxlock
+
+# Carpetas de compilación (Overleaf, latexmk, etc.)
+_build/
+latex.out/
+
